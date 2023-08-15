@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> CALCULATOR </title>
+        <style>
+            
+            h1,p{
+                text-align: center;
+                padding: 10px;
+                background-color: #008080;
+                color: #D1D1D1;
+            }
+            h2{
+                text-align: center;
+            }
+            #call{
+                background-color: #5F9EA0;
+                width: 460px;
+                height: 620px;
+            }
+            input{
+                font-size: x-large;
+                height: 80px;
+                width: 75px;
+                margin: 12px;
+                border: black;
+                border: 5px darkgray;
+
+            }
+            #BTS{
+                background-color: #D0ECE7;
+                width: 380px;
+                height: 160px;
+                font-weight: bold;
+                font-size: 65px;
+                border: black;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1><center>My CalC</center></h1>
+        <p>!! HELLO EVERYONE !!<br><br>
+            This is the first time when I have made my own Calculator Using HTML, CSS and JAVASCRIPT. When I was trying to make it, I have failed a lot but finally i made it. So the moral of the story is that "Don't stop untill u made it". BELIEVE IN YOURSELF and exceed your limits to work hard.<br><br>
+        </p><br>
+        <h2>Calculator</h2><br>
+        <center><div id="call">
+            <form name="Clc">
+                <input type="text" name="Sailesh" id="BTS">
+                <br>
+                <input type="button" value="1" onclick="Clc.Sailesh.value+=1">
+                <input type="button" value="2" onclick="Clc.Sailesh.value+=2">
+                <input type="button" value="3" onclick="Clc.Sailesh.value+=3">
+                <input type="button" value="*" onclick="Clc.Sailesh.value+='*'">
+                <br>
+                <input type="button" value="4" onclick="Clc.Sailesh.value+=4">
+                <input type="button" value="5" onclick="Clc.Sailesh.value+=5">
+                <input type="button" value="6" onclick="Clc.Sailesh.value+=6">
+                <input type="button" value="/" onclick="Clc.Sailesh.value+='/'">
+                <br>
+                <input type="button" value="7" onclick="Clc.Sailesh.value+=7">
+                <input type="button" value="8" onclick="Clc.Sailesh.value+=8">
+                <input type="button" value="9" onclick="Clc.Sailesh.value+=9">
+                <input type="button" value="+" onclick="Clc.Sailesh.value+='+'">
+                <br>
+                <input type="button" value="=" onclick="Clc.Sailesh.value=eval(Clc.Sailesh.value)">
+                <input type="button" value="0" onclick="Clc.Sailesh.value+=0">
+                <input type="button" value="C" onclick="Clc.Sailesh.value=''">
+                <input type="button" value="-" onclick="Clc.Sailesh.value+='-'">
+
+            </form>
+
+        </div>
+    </center>
+
+    </body>
